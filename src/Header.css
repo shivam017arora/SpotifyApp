@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header_left {
+    flex: 0.6;
+    min-width: 70px;
+    background-color: white;
+    color: grey;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.header_search_icon{
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.header_left input {
+    border: none;
+    width: 100%;
+
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header_right h4 {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
